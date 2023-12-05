@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Ticket Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Buses</a></li>
+                <li><a href="#">Trains</a></li>
+                <li><a href="#">Flights</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="search">
+        <h1>Find Tickets</h1>
+        <form>
+            <label for="departure">Departure Location:</label>
+            <input type="text" id="departure" name="departure" required>
+
+            <label for="destination">Destination Location:</label>
+            <input type="text" id="destination" name="destination" required>
+
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="results">
+        <!-- Display search results here -->
+    </section>
+
+    <section id="checkout">
+        <!-- Display checkout options here -->
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Online Ticket Booking</p>
+    </footer>
+</body>
+</html>
